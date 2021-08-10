@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--dark-color);
+    height: 80px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+header a:hover {
+    color: var(--primary-color);
+}
+
+#app-name {
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#app-name .app-title {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 5px;
+    background-color: rgb(18, 147, 212);
+}

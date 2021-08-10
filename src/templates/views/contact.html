@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div id="contact-content">
+        <section id="contact-section">
+            <h3>Servicios</h3><br>
+            <form action="">
+                <label for="">Nombre</label>
+                <br>
+                <input type="text" placeholder="Ingresa tu nombre">
+                <br>
+                <label for="">Email</label><br>
+                <input type="email" placeholder="Ingresa tu email">
+                <br>
+                <label for="">Teléfono</label><br>
+                <input type="text" placeholder="Ingresa tu teléfono">
+                <br>
+                <label for="">Celular</label><br>
+                <input type="text" placeholder="Ingresa tu celular">
+                <br>
+                <label for="">Mensaje</label><br>
+                <textarea></textarea>
+                <div id="enviar">
+                    <a href="#">Enviar</a>
+                </div>
+            </form>
+        </section>
+        <section id="what-make">
+            <article>
+                <h3>Que hacemos</h3><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur molestias ad esse, quod ratione ut.
+                    Consectetur sint eligendi beatae ipsum, nostrum quo expedita quis cupiditate soluta voluptates.
+                    Voluptatum, quasi velit.</p>
+            </article>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7954.524760990208!2d-75.684465!3d4.546735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5ade6653bc1%3A0xc2c6ca4ab95d8808!2sArmenia%2C%20Quind%C3%ADo!5e0!3m2!1ses!2sco!4v1627506798198!5m2!1ses!2sco"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+    </div>
+{% endblock %}

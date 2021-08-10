@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('./normalize.css');
+@import url('./navbar.css');
+@import url('./us.css');
+@import url('./services.css');
+@import url('./contact.css');
+
+:root {
+    --dark-color: rgb(35, 40, 44);
+    --light-color: rgba(241, 237, 237, 0.938);
+    --primary-color: rgb(18, 147, 212);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#main {
+    width: 100%;
+    background-image: url(../images/index-background.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main #content {
+    text-align: center;
+}
+
+#main #content p {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subscribe h2 {
+    color: var(--light-color);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subscribe form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+}
+
+#subscribe form input {
+    height: 28px;
+    width: 400px;
+    margin-right: 5px;
+}
+
+#subscribe a {
+    background-color: rgb(232, 73, 29);
+    padding: 9px;
+    width: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box_content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box_content .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box_content .logo img {
+    width: 100px;
+}
+
+.box_content .terms {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box_content .terms .text {
+    color: black;
+    font-size: 20px;
+}
+
+
+.box_content .title {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(18, 147, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

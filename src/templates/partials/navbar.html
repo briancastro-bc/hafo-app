@@ -1,0 +1,27 @@
+<header id="navbar">
+    <div id="app-name">
+        <h1 class="app-title">Diseño</h1>
+        <h1 class="app-title" style="color:rgb(18, 147, 212);">Multimedia</h1>
+    </div>
+    <ul>
+        <li>
+            <a href="{{ url_for('index') }}">inicio</a>
+        </li>
+        <li>
+            <a href="{{ url_for('us') }}">nosotros</a>
+        </li>
+        <li>
+            <a href="{{ url_for('services') }}">servicios</a>
+        </li>
+        <li>
+            <a href="{{ url_for('contact') }}">contacto</a>
+        </li>
+    </ul>
+</header>
+<hr>
+<header id="subscribe">
+    <h2>Subscribete a nuestro boletín</h2>
+    <form>
+        <input type="text" placeholder="Ingrese el Email..."><a href="#">Subscríbete</a>
+    </form>
+</header>

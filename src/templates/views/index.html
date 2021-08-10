@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section id="main">
+        <div id="content">
+            <h1>Expertos en Tecnologías Web</h1>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eos rem sunt laudantium autem vero
+                temporibus similique <br>velit.
+            </p>
+        </div>
+    </section>
+    <section id="content-main">
+        <div class="container_content">
+            <div class="box_content">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/html5.png') }}" alt="HTML5 logo">
+                </div>
+                <div class="title">
+                    <h2>HTML5</h2>
+                </div>
+                <div class="terms">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt mollitia ex deserunt
+                        reiciendis beatae consequuntur officiis enim a inventore.
+                    </p>
+                </div>
+            </div>
+            <div class="box_content">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/css3.png') }}" alt="CSS logo">
+                </div>
+                <div class="title">
+                    <h2>CSS3</h2>
+                </div>
+                <div class="terms">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam ipsum facilis quaerat. Praesentium
+                        numquam enim, doloremque tempora quaerat accusantium non.
+                    </p>
+                </div>
+            </div>
+            <div class="box_content">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/design.png') }}" alt="Design logo">
+                </div>
+                <div class="title">
+                    <h2>Diseño Gráfico</h2>
+                </div>
+                <div class="terms">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis distinctio nostrum consectetur
+                        repellendus blanditiis provident quaerat nemo nam repellat?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
